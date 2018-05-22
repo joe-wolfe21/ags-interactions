@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import styled from 'styled-components'
-import logo from '../../assets/logo/ags-logo.jpg'
 
 const StyledNav = styled.div`
   background: #365899;
