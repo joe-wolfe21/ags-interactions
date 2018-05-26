@@ -15,7 +15,7 @@ const IndexPage = () => (
     <Summary>
       At AGS interactions, we encourage positive, social relationships among
       adults with special needs by developing and practicing effective social
-      skills.
+      skills
     </Summary>
 
     <h1>Join our interactive social sessions</h1>

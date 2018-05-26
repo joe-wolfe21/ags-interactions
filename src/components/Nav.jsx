@@ -2,9 +2,10 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import styled from 'styled-components'
+import logo from '../../assets/logo/ags.png'
 
 const StyledNav = styled.div`
-  background: #365899;
+  background: #72aba6;
   color: white;
   margin-bottom: 3rem;
   padding: 1.45rem 1.0875rem;
@@ -21,6 +22,12 @@ const Title = styled(Link)`
   text-decoration: none;
   color: white;
   flex: 1;
+
+  img {
+    margin-top: -23px;
+    height: 85px;
+    margin-bottom: 0;
+  }
 `
 
 const Links = styled.ul`
@@ -38,7 +45,7 @@ const Links = styled.ul`
   }
 `
 
-const Subtitle = styled.h1`
+const Description = styled.h1`
   margin-bottom: 16px;
   margin-top: 8px;
   margin-left: auto;
@@ -50,16 +57,17 @@ const Subtitle = styled.h1`
 
 const Mission = styled.p`
   text-align: center;
-  max-width: 600px;
+  max-width: 700px;
   margin: 30px auto;
   line-height: 1.75;
+  font-size: 24px;
 `
 
 const Nav = ({ title }) => (
   <StyledNav>
     <Container>
       <Title to="/">
-        <h1>{title}</h1>
+        <img src={logo} alt={'ags interactions logo'} />
       </Title>
       <Links>
         <li>
@@ -70,10 +78,10 @@ const Nav = ({ title }) => (
         </li>
       </Links>
     </Container>
-    <Subtitle>Adults with Special Needs</Subtitle>
+    <Description>{title}</Description>
     <Mission>
-      AGS Interactions is a social organization that provides an engaging social
-      environment for adults with special needs
+      A social organization that provides an engaging, positive environment for
+      adults with special needs
     </Mission>
   </StyledNav>
 )
