@@ -60,7 +60,7 @@ const Mission = styled.p`
   max-width: 700px;
   margin: 30px auto;
   line-height: 1.75;
-  font-size: 24px;
+  color: white;
 `
 
 const Nav = ({ title }) => (

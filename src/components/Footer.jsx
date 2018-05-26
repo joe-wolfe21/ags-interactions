@@ -52,9 +52,9 @@ const Copyright = styled.div`
 const Footer = () => (
   <StyledFooter>
     <Summary>
-      AGS Interactions is an interactive social group for adults with special
-      needs. Our sessions instill social confidence and build friendships in an
-      enjoyable, positive environment
+      AGS Interactions is a social group for adults with special needs. Our
+      sessions instill social confidence and build friendships in an enjoyable,
+      positive atmosphere
     </Summary>
     <Item>
       <Label>Join Us</Label>
