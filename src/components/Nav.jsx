@@ -6,7 +6,7 @@ import styled from 'styled-components'
 const StyledNav = styled.div`
   background: #365899;
   color: white;
-  margin-bottom: 1.45rem;
+  margin-bottom: 3rem;
   padding: 1.45rem 1.0875rem;
 `
 
@@ -16,8 +16,6 @@ const Container = styled.div`
   max-width: 1012px;
   margin: 0 auto;
 `
-
-const Logo = styled.div``
 
 const Title = styled(Link)`
   text-decoration: none;
@@ -40,12 +38,26 @@ const Links = styled.ul`
   }
 `
 
+const Subtitle = styled.h1`
+  margin-bottom: 16px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+`
+
+const Mission = styled.p`
+  text-align: center;
+  max-width: 600px;
+  margin: 30px auto;
+  line-height: 1.75;
+`
+
 const Nav = ({ title }) => (
   <StyledNav>
     <Container>
-      <Logo>
-        <div style={{ width: '50px', height: '50px' }} />
-      </Logo>
       <Title to="/">
         <h1>{title}</h1>
       </Title>
@@ -58,6 +70,11 @@ const Nav = ({ title }) => (
         </li>
       </Links>
     </Container>
+    <Subtitle>Adults with Special Needs</Subtitle>
+    <Mission>
+      AGS Interactions is a social organization that provides an engaging social
+      environment for adults with special needs
+    </Mission>
   </StyledNav>
 )
 
