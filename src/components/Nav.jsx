@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import logo from '../../assets/logo/ags.png'
 
 const StyledNav = styled.div`
-  background: #72aba6;
+  background: linear-gradient(to right, #97c4c0, #012d68);
   color: white;
   margin-bottom: 3rem;
   padding: 1.45rem 1.0875rem;
@@ -74,7 +74,10 @@ const Nav = ({ title }) => (
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/events">Events</Link>
+          <Link to="/dances">Dances</Link>
+        </li>
+        <li>
+          <Link to="/groupSessions">Group Sessions</Link>
         </li>
       </Links>
     </Container>

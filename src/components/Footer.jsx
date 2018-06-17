@@ -75,7 +75,7 @@ const Footer = () => (
         </a>
       </Value>
     </Item>
-    <Copyright>© 2018 AGS Interactions</Copyright>
+    <Copyright>&copy; 2018 AGS Interactions</Copyright>
   </StyledFooter>
 )
 
