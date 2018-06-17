@@ -13,8 +13,7 @@ const PhotoCatalog = styled.div`
 `
 
 const PhotoCatalogImg = styled(StyledImg)`
-  height: 350px;
-  margin: 0 30px;
+  height: 335px;
 `
 
 const MainPhoto = styled.div`
@@ -22,19 +21,25 @@ const MainPhoto = styled.div`
   text-align: center;
 `
 
+const Section = styled.div`
+  margin-bottom: 75px;
+`
+
 const IndexPage = () => (
   <div>
-    <h1>
-      We believe in meaningful social interactions and community integration
-    </h1>
-    <p>
-      At AGS interactions, we encourage positive, social relationships among
-      adults with special needs by developing and practicing effective social
-      skills
-    </p>
-    <MainPhoto>
-      <StyledImg src={scarecrowArt} alt="flower art session" />
-    </MainPhoto>
+    <Section>
+      <h1>
+        We believe in meaningful social interactions and community integration
+      </h1>
+      <p>
+        At AGS interactions, we encourage positive, social relationships among
+        adults with special needs by developing and practicing effective social
+        skills
+      </p>
+      <MainPhoto>
+        <StyledImg src={scarecrowArt} alt="flower art session" />
+      </MainPhoto>
+    </Section>
     <h1>Join our interactive social sessions</h1>
     <p>
       Our participants are empowered to apply and practice social skills through

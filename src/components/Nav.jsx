@@ -7,7 +7,7 @@ import logo from '../../assets/logo/ags.png'
 const StyledNav = styled.div`
   background: linear-gradient(to right, #97c4c0, #012d68);
   color: white;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   padding: 1.45rem 1.0875rem;
 `
 
