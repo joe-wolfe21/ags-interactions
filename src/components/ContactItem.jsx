@@ -1,27 +1,24 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Wrapper = styled.div`
-  display: flex;
-
-  p {
-    margin-left: 25px;
-  }
+const Center = styled.div`
+  text-align: center;
 `
 
 const Icon = styled.img`
-  margin-top: 50%;
-  height: 30px;
+  height: 50px;
   margin-bottom: 0;
 `
 
 const ContactItem = ({ url, target = '', icon, description }) => (
-  <Wrapper>
-    <a target={target} href={url}>
-      <Icon src={icon} alt="detail icon" />
-    </a>
+  <div>
     <p>{description}</p>
-  </Wrapper>
+    <Center>
+      <a target={target} href={url}>
+        <Icon src={icon} alt="detail icon" />
+      </a>
+    </Center>
+  </div>
 )
 
 export default ContactItem
