@@ -54,7 +54,7 @@ const Description = styled.h1`
   margin-left: auto;
   margin-right: auto;
   font-weight: 700;
-  font-size: 56px;
+  font-size: 50px;
   text-align: center;
 `
 
