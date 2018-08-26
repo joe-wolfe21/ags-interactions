@@ -7,7 +7,7 @@ const StyledFooter = styled.div`
   background-color: #f9f9fa;
   height: 100%;
   color: rgb(96, 110, 119);
-  padding-bottom: 30px;
+  padding: 0 15px 30px 15px;
 `
 
 const Summary = styled.p`

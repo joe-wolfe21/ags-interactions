@@ -21,13 +21,16 @@ const Container = styled.div`
 const Title = styled(Link)`
   text-decoration: none;
   color: white;
-  flex: 1;
 
   img {
-    margin-top: -23px;
-    height: 85px;
+    margin-top: -20px;
+    height: 100px;
     margin-bottom: 0;
   }
+`
+
+const Empty = styled.div`
+  flex: 1;
 `
 
 const Links = styled.ul`
@@ -51,7 +54,7 @@ const Description = styled.h1`
   margin-left: auto;
   margin-right: auto;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 56px;
   text-align: center;
 `
 
@@ -69,15 +72,10 @@ const Nav = ({ title }) => (
       <Title to="/">
         <img src={logo} alt={'ags interactions logo'} />
       </Title>
+      <Empty />
       <Links>
         <li>
           <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/dances">Dances</Link>
-        </li>
-        <li>
-          <Link to="/groupSessions">Group Sessions</Link>
         </li>
       </Links>
     </Container>
