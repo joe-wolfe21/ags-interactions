@@ -10,6 +10,10 @@ import dance from '../../assets/dances/dance.png'
 import fb from '../../assets/fb.svg'
 import email from '../../assets/email.svg'
 
+const Note = styled.h3`
+  margin-top: 45px;
+`
+
 const IndexPage = () => (
   <div>
     <MainDetail
@@ -22,28 +26,27 @@ const IndexPage = () => (
     <MainDetail
       title="Stop by for one of our weekly social sessions"
       description="Our participants are empowered to apply and practice social skills through
-        a variety of artistic, educational, and integrative community experiences"
+        a variety of artistic, educational, and integrative community experiences. $25.00 per session."
       image={plantArt}
     />
-
     <MainDetail
       title="Party with us during our monthly dances"
-      description="Get ready to eat some great snacks, meet some even greater people, and
-dance your butts off!"
+      description="Get ready to meet some great new people, have some tasty snacks with friends, and dance the night away! $7.00 per dance participant."
       image={dance}
     />
-    <h1>Interested? Find out more!</h1>
+    <h1>Interested?</h1>
+    <ContactItem
+      url="mailto:agsinteractions@gmail.com"
+      icon={email}
+      description="To find out more about AGS Interactions, email us to be added to our distribution list for social group topics and dance themes."
+    />
     <ContactItem
       url="https://www.facebook.com/AGS-Interactions-442225855961712/"
       target="_blank"
       icon={fb}
-      description="Follow our facebook page to keep track of all our upcoming events!"
+      description="Follow us on facebook to stay up to date with our latest events and to see even more pictures of our latest socials!"
     />
-    <ContactItem
-      url="mailto:agsinteractions@gmail.com"
-      icon={email}
-      description="Questions? Want to help? Email us. We'll be glad to hear from you!"
-    />
+    <Note>* Parents/Guardians must remain on the premises at all times.</Note>
   </div>
 )
 
