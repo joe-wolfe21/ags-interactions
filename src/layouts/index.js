@@ -13,7 +13,7 @@ const Layout = ({ children, data }) => (
       meta={[
         {
           name: 'description',
-          content: 'AGS Interactions for Special Needs Adults',
+          content: 'A.G.S. Interactions for Special Needs Adults',
         },
         {
           name: 'keywords',

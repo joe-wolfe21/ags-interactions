@@ -24,10 +24,12 @@ const Headshot = styled(StyledImg)`
 
 const About = () => (
   <div>
-    <h1>Our sons with special needs motivated us to form AGS Interactions</h1>
+    <h1>
+      Our sons with special needs motivated us to form A.G.S. Interactions
+    </h1>
     <AGS>
       <Person>
-        <p>Anthony Zuazo</p>
+        <p>A.J. Zuazo</p>
         <Headshot src={aj} alt={'aj headshot'} />
       </Person>
       <Person>
@@ -41,7 +43,7 @@ const About = () => (
     </AGS>
     <p>
       Post graduation, we realized the limited options for social opportunities
-      for adults with special needs. As a result, AGS Interactions was born!
+      for adults with special needs. As a result, A.G.S. Interactions was born!
     </p>
   </div>
 )

@@ -81,12 +81,12 @@ const MailIcon = styled.a`
 const Footer = () => (
   <StyledFooter>
     <Summary>
-      AGS Interactions is a social group for adults with special needs that
+      A.G.S. Interactions is a social group for adults with special needs that
       instills social confidence and builds friendships in an enjoyable,
       positive atmosphere
     </Summary>
     <ExtraDetails>
-      <Copyright>&copy; 2018 AGS Interactions</Copyright>
+      <Copyright>&copy; 2018 A.G.S. Interactions</Copyright>
       <DetailIcons>
         <FbIcon
           target={'_blank'}

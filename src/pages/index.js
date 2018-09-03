@@ -18,27 +18,36 @@ const IndexPage = () => (
   <div>
     <MainDetail
       title="We believe in meaningful social interactions and community integration"
-      description="At AGS interactions, we encourage positive, social relationships among
+      description="At A.G.S. interactions, we encourage positive, social relationships among
       adults with special needs by developing and practicing effective social
       skills. We do this through interactive social sessions and monthly dances!"
       image={scarecrowArt}
     />
     <MainDetail
-      title="Stop by for one of our weekly social sessions"
+      title="Sign up for our social group sessions"
       description="Our participants are empowered to apply and practice social skills through
-        a variety of artistic, educational, and integrative community experiences. $25.00 per session."
+        a variety of artistic, educational, and integrative community experiences."
       image={plantArt}
+      subDetails={[
+        '$25.00 per session',
+        'Wednesdays 6pm-7pm',
+        'Registration is required',
+      ]}
     />
     <MainDetail
-      title="Party with us during our monthly dances"
-      description="Get ready to meet some great new people, have some tasty snacks with friends, and dance the night away! $7.00 per dance participant."
+      title="Join us for our monthly dances"
+      description="Get ready to meet some great new people, have some tasty snacks with friends, and dance the night away!"
       image={dance}
+      subDetails={[
+        '$7.00 per dance participant',
+        'Once a month, date announced in advance',
+      ]}
     />
     <h1>Interested?</h1>
     <ContactItem
       url="mailto:agsinteractions@gmail.com"
       icon={email}
-      description="To find out more about AGS Interactions, email us to be added to our distribution list for social group topics and dance themes."
+      description="To find out more about A.G.S. Interactions, email us to be added to our distribution list for social group topics and dance themes."
     />
     <ContactItem
       url="https://www.facebook.com/AGS-Interactions-442225855961712/"
@@ -46,7 +55,9 @@ const IndexPage = () => (
       icon={fb}
       description="Follow us on facebook to stay up to date with our latest events and to see even more pictures of our latest socials!"
     />
-    <Note>* Parents/Guardians must remain on the premises at all times.</Note>
+    <Note>
+      * A parent or guardian must remain on the premises at all times.
+    </Note>
   </div>
 )
 

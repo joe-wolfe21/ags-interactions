@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'AGS Interactions',
+    title: 'A.G.S. Interactions',
   },
   plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-styled-components'],
 }

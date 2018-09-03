@@ -18,7 +18,7 @@ const Container = styled.div`
   margin: 0 auto;
 `
 
-const Title = styled(Link)`
+const Header = styled(Link)`
   text-decoration: none;
   color: white;
 
@@ -48,7 +48,7 @@ const Links = styled.ul`
   }
 `
 
-const Description = styled.h1`
+const Title = styled.h1`
   margin-bottom: 16px;
   margin-top: 8px;
   margin-left: auto;
@@ -69,9 +69,9 @@ const Mission = styled.p`
 const Nav = ({ title }) => (
   <StyledNav>
     <Container>
-      <Title to="/">
+      <Header to="/">
         <img src={logo} alt={'ags interactions logo'} />
-      </Title>
+      </Header>
       <Empty />
       <Links>
         <li>
@@ -79,10 +79,10 @@ const Nav = ({ title }) => (
         </li>
       </Links>
     </Container>
-    <Description>{title}</Description>
+    <Title>{title}</Title>
     <Mission>
       A social organization that provides an engaging, positive environment for
-      adults with special needs
+      young adults with special needs
     </Mission>
   </StyledNav>
 )
