@@ -31,7 +31,7 @@ const IndexPage = () => (
       subDetails={[
         '$25.00 per session',
         'Wednesdays 6pm-7pm',
-        'Registration is required',
+        'Registration required (via email or facebook events)',
       ]}
     />
     <MainDetail
@@ -41,6 +41,7 @@ const IndexPage = () => (
       subDetails={[
         '$7.00 per dance participant',
         'Once a month, date announced in advance',
+        'Registration preferred',
       ]}
     />
     <h1>Interested?</h1>
@@ -53,7 +54,7 @@ const IndexPage = () => (
       url="https://www.facebook.com/AGS-Interactions-442225855961712/"
       target="_blank"
       icon={fb}
-      description="Follow us on facebook to stay up to date with our latest events and to see even more pictures of our latest socials!"
+      description="To stay up to date with our upcoming events, follow us on facebook!"
     />
     <Note>
       * A parent or guardian must remain on the premises at all times.

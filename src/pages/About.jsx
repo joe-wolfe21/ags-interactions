@@ -26,6 +26,8 @@ const Headshot = styled(StyledImg)`
 }
 `
 
+const Mission = styled.p``
+
 const About = () => (
   <div>
     <h1>
@@ -49,6 +51,11 @@ const About = () => (
       Post graduation, we realized the limited options for social opportunities
       for adults with special needs. As a result, A.G.S. Interactions was born!
     </p>
+    <h1>Our mission</h1>
+    <Mission>
+      Our goal is to encourage positive, social relationships among adults with
+      special needs by developing and practicing effective social skills.
+    </Mission>
   </div>
 )
 
