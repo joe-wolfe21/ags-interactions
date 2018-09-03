@@ -10,6 +10,10 @@ const AGS = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 `
 
 const Person = styled.div`
