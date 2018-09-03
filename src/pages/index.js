@@ -20,7 +20,7 @@ const IndexPage = () => (
       title="We believe in meaningful social interactions and community integration"
       description="At A.G.S. interactions, we encourage positive, social relationships among
       adults with special needs by developing and practicing effective social
-      skills. We do this through interactive social sessions and monthly dances!"
+      skills. We do this through interactive social group sessions and monthly dances!"
       image={scarecrowArt}
     />
     <MainDetail
@@ -41,7 +41,7 @@ const IndexPage = () => (
       subDetails={[
         '$7.00 per dance participant',
         'Once a month, date announced in advance',
-        'Registration preferred',
+        'Registration required (at least one day in advance)',
       ]}
     />
     <h1>Interested?</h1>
