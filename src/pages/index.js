@@ -9,6 +9,7 @@ import scarecrowArt from '../../assets/art/scarecrowArt.png'
 import dance from '../../assets/dances/dance.png'
 import fb from '../../assets/fb.svg'
 import email from '../../assets/email.svg'
+import waiver from '../../assets/2019_AGS_waiver.pdf'
 
 const Note = styled.h3`
   margin-top: 45px;
@@ -45,10 +46,18 @@ const IndexPage = () => (
       ]}
     />
     <h1>Interested?</h1>
+    <Note>
+      Please note, parents or guardians must complete the{' '}
+      <a href={waiver} download>
+        <span>2019 waiver form</span>
+      </a>{' '}
+      for each participant before they can attend an A.G.S. event.
+    </Note>
+
     <ContactItem
       url="mailto:agsinteractions@gmail.com"
       icon={email}
-      description="To find out more about A.G.S. Interactions, email us to be added to our distribution list for social group topics and dance themes."
+      description="To find out more about A.G.S. Interactions, email us!"
     />
     <ContactItem
       url="https://www.facebook.com/AGS-Interactions-442225855961712/"

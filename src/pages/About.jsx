@@ -56,6 +56,8 @@ const About = () => (
       Our goal is to encourage positive, social relationships among adults with
       special needs by developing and practicing effective social skills.
     </Mission>
+    <div>Ann Wolfe, founder</div>
+    <div>Janet Zuazo (M.Ed), founder</div>
   </div>
 )
 
