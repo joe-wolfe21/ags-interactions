@@ -9,7 +9,6 @@ import scarecrowArt from '../../assets/art/scarecrowArt.png'
 import dance from '../../assets/dances/dance.png'
 import fb from '../../assets/fb.svg'
 import email from '../../assets/email.svg'
-import waiver from '../../assets/2019_AGS_waiver.pdf'
 
 const Note = styled.h3`
   margin-top: 45px;

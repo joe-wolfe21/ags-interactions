@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import StyledImg from '../styles/StyledImg'
+import waiverForm from '../../assets/2019_AGS_waiver.pdf'
 
 const MainPhoto = styled.div`
   margin: 30px auto;
@@ -33,7 +34,7 @@ const MainDetails = ({
       {waiver && (
         <SubDetail>
           Please note, parents or guardians must complete the{' '}
-          <a href={waiver} download>
+          <a href={waiverForm} download>
             <span>2019 waiver form</span>
           </a>{' '}
           for each participant
