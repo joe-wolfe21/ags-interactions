@@ -32,8 +32,9 @@ const IndexPage = () => (
       subDetails={[
         '$25.00 per session',
         'Wednesdays 6pm-7pm',
-        'Registration required (via email or facebook events)',
+        'Registration required via email',
       ]}
+      waiver
     />
     <MainDetail
       title="Join us for our monthly dances"
@@ -42,28 +43,21 @@ const IndexPage = () => (
       subDetails={[
         '$7.00 per dance participant',
         'Once a month, date announced in advance',
-        'Registration required (at least one day in advance)',
+        'Registration required via email (must be at least three days in advance)',
       ]}
+      waiver
     />
     <h1>Interested?</h1>
-    <Note>
-      Please note, parents or guardians must complete the{' '}
-      <a href={waiver} download>
-        <span>2019 waiver form</span>
-      </a>{' '}
-      for each participant before they can attend an A.G.S. event.
-    </Note>
-
     <ContactItem
       url="mailto:agsinteractions@gmail.com"
       icon={email}
-      description="To find out more about A.G.S. Interactions, email us!"
+      description="To register for an event, send us an email. (You'll recieve a confirmation email shortly after!)"
     />
     <ContactItem
       url="https://www.facebook.com/AGS-Interactions-442225855961712/"
       target="_blank"
       icon={fb}
-      description="To stay up to date with our upcoming events, follow us on facebook!"
+      description="Follow our facebook page to stay up to date with our latest events"
     />
     <Note>
       * A parent or guardian must remain on the premises at all times.
